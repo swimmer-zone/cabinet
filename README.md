@@ -1,5 +1,7 @@
 # CABINET
 
+This project is a work in progress
+
 ## Hexagons
 
 ![Arduino Board](assets/cabinet.png)
