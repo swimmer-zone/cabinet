@@ -1,12 +1,12 @@
 # CABINET
 
-This project is a work in progress
+This project is still a work in progress, the current code is tested with 5m of LED strip. See the todo list at the bottom.
 
 ## Hexagons
 
 ![Arduino Board](assets/cabinet.png)
 
-This cabinet consists of 16 hexagons with sides of 320mm and a depth of 320mm.
+This cabinet consists of 16 hexagons with sides of 320mm and a depth of 320mm, made of 18mm plywood.
 
 
 ## Arduino
@@ -35,6 +35,10 @@ Below are some comments that were included in that file:
 * AVOID connecting NeoPixels on a LIVE CIRCUIT. If you must, ALWAYS connect GROUND (-) first, then +, then data.
 * When using a 3.3V microcontroller with a 5V-powered NeoPixel strip, a LOGIC-LEVEL CONVERTER on the data line is STRONGLY RECOMMENDED. (Skipping these may work OK on your workbench but can fail in the field)
 ![Schema for connecting the strip](assets/connect_strip.png)
+
+For a polarized electrolytic capacitor as seen here, the negative (–) lead is usually indicated by a stripe and/or may be shorter than the + lead.
+
+
 ![Schema for connecting a switch](assets/connect_switch.png)
 ![Schema for connecting the strip with a switch](assets/connect_strip_switch.png)
 
@@ -67,21 +71,38 @@ In this function the animation functions can be called. The default ones include
 
 ## Shopping list
 
-* 1x [DuPont Jumper draad Male-Female 20cm 10 draden](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-female-20cm-10-draden) € 0,75
-* 1x [DuPont Jumper draad Male-Male 20cm 10 draden](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-male-20cm-10-draden) € 0,75
-* 1x [1000uF 25V Elektrolytische Condensator](https://www.tinytronics.nl/shop/nl/componenten/condensatoren/1000uf-16v-elektrolytische-condensator) € 0,25
-* 6x [WS2812B Digitale 5050 RGB LED Strip - 300 LEDs 5m](https://www.tinytronics.nl/shop/nl/verlichting/led-strips/led-strips/ws2812b-digitale-5050-rgb-led-strip-300-leds-5m) € 50,00
-* 1x [Krimpkous 2:1 - Ø 14mm diameter - 50cm](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-2:1-%C3%B8-14mm-diameter-50cm) € 1,15
-* 1x [470Ω weerstand](https://www.tinytronics.nl/shop/nl/componenten/weerstanden/weerstanden/470%CF%89-weerstand) € 0,05
-* 3x [Mean Well Voeding - 5V 26A - Switching Power Supply - RS-150-5](https://www.tinytronics.nl/shop/nl/power/voedingen/5v/mean-well-voeding-5v-26a-switching-power-supply-rs-150-5) € 30,00
-* 1x [Standaard 230V Voedingskabel - 1.8m - Haakse stekker](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/netspanning/voedingskabels/standaard-230v-voedingskabel-1.8m-haakse-stekker) € 4,00
-* 1x [Krimpkous Kit - Zwart](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-kit-zwart) € 4,00
-* 1x [Budget Soldeerstation Kit - ZD-99 - 48W](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/solderen/soldeerbouten-en-stations/budget-soldeerstation-kit-zd-99-48w) € 25,00
-* 1x [Rotary Encoder Module](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/rotary-encoders/rotary-encoder-module) € 1,50
+* 96x 320x320x18mm plywood
+* 1x Wood glue
+* 1x 30729x18mm wood veneer
+* 26x connectors?
+* 1x Wood finish, 20m2
 
-Totals: € 427,45
+* 1x [DuPont Jumper wire Male-Female 20cm 10 wires](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-female-20cm-10-draden) € 0,75
+* 1x [DuPont Jumper wire Male-Male 20cm 10 wires](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-male-20cm-10-draden) € 0,75
+* 1x [1000uF 25V Elektrolytic Capacitor](https://www.tinytronics.nl/shop/nl/componenten/condensatoren/1000uf-16v-elektrolytische-condensator) € 0,25
+* 6x [WS2812B Digital 5050 RGB LED Strip - 300 LEDs 5m](https://www.tinytronics.nl/shop/nl/verlichting/led-strips/led-strips/ws2812b-digitale-5050-rgb-led-strip-300-leds-5m) € 50,00
+* 1x [Heat shrink tubing 2:1 - Ø 14mm diameter - 50cm](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-2:1-%C3%B8-14mm-diameter-50cm) € 1,15
+* 1x [470Ω resistor](https://www.tinytronics.nl/shop/nl/componenten/weerstanden/weerstanden/470%CF%89-weerstand) € 0,05
+* 2x [Mean Well Power Supply - 5V 26A - Switching Power Supply - RS-150-5](https://www.tinytronics.nl/shop/nl/power/voedingen/5v/mean-well-voeding-5v-26a-switching-power-supply-rs-150-5) € 30,00
+* 1x [Standard 230V Power supply cable - 1.8m - Angled plug](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/netspanning/voedingskabels/standaard-230v-voedingskabel-1.8m-haakse-stekker) € 4,00
+* 1x [Heat shrink tubing Kit - Black](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-kit-zwart) € 4,00
+* 1x [Budget Soldering Station Kit - ZD-99 - 48W](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/solderen/soldeerbouten-en-stations/budget-soldeerstation-kit-zd-99-48w) € 25,00
+* 1x [Rotary Encoder Module](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/rotary-encoders/rotary-encoder-module) € 1,50
+* 1x [IR sensor module with remote and battery - With IR LED](https://www.tinytronics.nl/shop/nl/communicatie-en-signalen/draadloos/infrarood/ir-sensor-module-met-afstandsbediening-en-batterij-met-ir-led) € 3,00
+* 16x [Object Detection Sensor Module](https://www.tinytronics.nl/shop/nl/sensoren/optisch/infrarood/object-detectie-sensor-module) € 2,00
+* 16x connect plugs?
+
+Totals: € 432,45
 
 
 ## Other Arduino projects
 
 [Reddit: /r/arduino](https://www.reddit.com/r/arduino/)
+
+
+## TODO
+
+* Build the cabinet, cut up the LED strip in 16 pieces holding 108 LEDs each.
+* Connect all to the Arduino and the power supply - determine how many power supplies are needed.
+* Include programming for the IR-sensor and the remote
+* Include programming for the object detection
