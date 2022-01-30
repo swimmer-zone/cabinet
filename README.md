@@ -2,7 +2,9 @@
 
 ## Hexagons
 
-This cabinet consists of 20 hexagons with sides of 320mm and a depth of 320mm.
+![Arduino Board](assets/cabinet.png)
+
+This cabinet consists of 16 hexagons with sides of 320mm and a depth of 320mm.
 
 
 ## Arduino
@@ -57,27 +59,27 @@ In this function the animation functions can be called. The default ones include
 
 ## References
 
-[Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
-[Basic tutorial from KamuiCosplay](https://www.youtube.com/watch?v=EvRxQbhDxCo)
-[Controlling with remote](https://www.youtube.com/watch?v=kZ1HZ6775Mg)
+* [Basic tutorial from KamuiCosplay](https://www.youtube.com/watch?v=EvRxQbhDxCo)
+* [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
+* [Controlling with remote](https://www.youtube.com/watch?v=kZ1HZ6775Mg)
 
 ## Shopping list
 
-1x €   0,75 [DuPont Jumper draad Male-Female 20cm 10 draden](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-female-20cm-10-draden)
-1x €   0,75 [DuPont Jumper draad Male-Male 20cm 10 draden](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-male-20cm-10-draden)
-1x €   0,25 [1000uF 25V Elektrolytische Condensator](https://www.tinytronics.nl/shop/nl/componenten/condensatoren/1000uf-16v-elektrolytische-condensator)
-8x €  50,00 [WS2812B Digitale 5050 RGB LED Strip - 300 LEDs 5m](https://www.tinytronics.nl/shop/nl/verlichting/led-strips/led-strips/ws2812b-digitale-5050-rgb-led-strip-300-leds-5m)
-1x €   1,15 [Krimpkous 2:1 - Ø 14mm diameter - 50cm](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-2:1-%C3%B8-14mm-diameter-50cm)
-1x €   0,05 [470Ω weerstand](https://www.tinytronics.nl/shop/nl/componenten/weerstanden/weerstanden/470%CF%89-weerstand)
-4x €  30,00 [Mean Well Voeding - 5V 26A - Switching Power Supply - RS-150-5](https://www.tinytronics.nl/shop/nl/power/voedingen/5v/mean-well-voeding-5v-26a-switching-power-supply-rs-150-5)
-1x €   4,00 [Standaard 230V Voedingskabel - 1.8m - Haakse stekker](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/netspanning/voedingskabels/standaard-230v-voedingskabel-1.8m-haakse-stekker)
-1x €   4,00 [Krimpkous Kit - Zwart](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-kit-zwart)
-1x €  25,00 [Budget Soldeerstation Kit - ZD-99 - 48W](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/solderen/soldeerbouten-en-stations/budget-soldeerstation-kit-zd-99-48w)
-1x €   1,50 [Rotary Encoder Module](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/rotary-encoders/rotary-encoder-module)
------------
-   € 557,45
+* 1x [DuPont Jumper draad Male-Female 20cm 10 draden](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-female-20cm-10-draden) € 0,75
+* 1x [DuPont Jumper draad Male-Male 20cm 10 draden](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/prototyping-draden/dupont-compatible-en-jumper/dupont-jumper-draad-male-male-20cm-10-draden) € 0,75
+* 1x [1000uF 25V Elektrolytische Condensator](https://www.tinytronics.nl/shop/nl/componenten/condensatoren/1000uf-16v-elektrolytische-condensator) € 0,25
+* 6x [WS2812B Digitale 5050 RGB LED Strip - 300 LEDs 5m](https://www.tinytronics.nl/shop/nl/verlichting/led-strips/led-strips/ws2812b-digitale-5050-rgb-led-strip-300-leds-5m) € 50,00
+* 1x [Krimpkous 2:1 - Ø 14mm diameter - 50cm](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-2:1-%C3%B8-14mm-diameter-50cm) € 1,15
+* 1x [470Ω weerstand](https://www.tinytronics.nl/shop/nl/componenten/weerstanden/weerstanden/470%CF%89-weerstand) € 0,05
+* 3x [Mean Well Voeding - 5V 26A - Switching Power Supply - RS-150-5](https://www.tinytronics.nl/shop/nl/power/voedingen/5v/mean-well-voeding-5v-26a-switching-power-supply-rs-150-5) € 30,00
+* 1x [Standaard 230V Voedingskabel - 1.8m - Haakse stekker](https://www.tinytronics.nl/shop/nl/kabels-en-connectoren/kabels-en-adapters/netspanning/voedingskabels/standaard-230v-voedingskabel-1.8m-haakse-stekker) € 4,00
+* 1x [Krimpkous Kit - Zwart](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/installatie-en-montagemateriaal/krimpkousen/krimpkous-kit-zwart) € 4,00
+* 1x [Budget Soldeerstation Kit - ZD-99 - 48W](https://www.tinytronics.nl/shop/nl/gereedschap-en-montage/solderen/soldeerbouten-en-stations/budget-soldeerstation-kit-zd-99-48w) € 25,00
+* 1x [Rotary Encoder Module](https://www.tinytronics.nl/shop/nl/schakelaars/manuele-schakelaars/rotary-encoders/rotary-encoder-module) € 1,50
+
+Totals: € 427,45
 
 
 ## Other Arduino projects
 
-(Reddit: /r/arduino)[https://www.reddit.com/r/arduino/]
+[Reddit: /r/arduino](https://www.reddit.com/r/arduino/)
