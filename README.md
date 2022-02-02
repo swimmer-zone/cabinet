@@ -71,8 +71,15 @@ Example:
 2. Each hexagon starts circling around
 3. Everything is quite dim, but with a motion sensor a single hexagon can light up if I come close
 4. Equalizer
-5. TBD
-6. ...
+5. Circle around 6 hexagons
+6. Light up certain hexagons (use arrows to pick which)
+7. All off, except when approached
+8. TBD
+9. ...
+10. ...
+
+### Proximity sensors
+Each hexagon contains a proximity sensor which can be used to light up a hexagon when something is grabbed from it. Because 16 of those sensors are needed, unfortunately an Arduino Uno won't be sufficient, as it is impossible to connect that many things. That's why I included an Arduino Mega in the shopping list.
 
 ### Smartphone
 Using [RemoteXY](https://remotexy.com) you can create an app for your smartphone. However, I don't think I'll be using this as it requires too much steps to open the app and control my lights. Watch this [Youtube video](https://www.youtube.com/watch?v=2cjufbgOBYo) for further instructions on that. I put a WiFi receiver in the shopping list regardless.
@@ -80,13 +87,17 @@ Using [RemoteXY](https://remotexy.com) you can create an app for your smartphone
 
 ## Shopping list
 
-* 96x 320x320x18mm plywood
-* 1x Wood glue
-* 1x 30729x18mm wood veneer
+### Cabinet
+* 12x [Plywood Powerplex Pure interior 2440 x 1220 x 18 mm](https://www.hornbach.nl/shop/Multiplexplaat-Powerplex-Pure-interieur-2440-x-1220-x-18-mm/8492345/artikel.html) Assuming each slab contains 8 of the 96 320x320x18mm sections € 57,95
+* 1x [Wood glue](https://www.hornbach.nl/shop/BISON-Houtlijm-750-gr/4138994/artikel.html) € 9,39
+* 8x [Edge Banding 5000x20mm](https://www.hornbach.nl/shop/MACLEAN-Kantenband-naturel-eiken-20-x-5000-mm-voorgelijmd/7879774/artikel.html) € 3,50
 * 26x connectors?
-* 1x Wood finish, 20m2
+* 1x [Wood finish](https://www.hornbach.nl/shop/GILDE-MEESTERS-Acryl-PU-lak-zijdeglans-blank-1-l/6240064/artikel.html) € 31,29
 
-* 1x [](https://www.tinytronics.nl/shop/en/development-boards/microcontroller-boards/arduino-compatible/arduino-uno-r3) € 20,50
+Totals: € 532,28
+
+### Electronics
+* 1x [Arduino Mega 2560 R3](https://www.tinytronics.nl/shop/en/development-boards/microcontroller-boards/arduino-compatible/arduino-mega-2560-r3) € 35,00
 * 1x [DuPont Jumper wire Male-Female 20cm 10 wires](https://www.tinytronics.nl/shop/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-female-20cm-10-wires) € 0,75
 * 1x [DuPont Jumper wire Male-Male 20cm 10 wires](https://www.tinytronics.nl/shop/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-male-20cm-10-wires) € 0,75
 * 1x [DuPont Jumper wire Female-Female 20cm 10 wires](https://www.tinytronics.nl/shop/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-female-female-20cm-10-wires) € 0,75
@@ -106,7 +117,7 @@ Using [RemoteXY](https://remotexy.com) you can create an app for your smartphone
 * 20x [JST-SM 3p Compatible Extension Cable - 100cm](https://www.tinytronics.nl/shop/en/lighting/led-strips/accessories/jst-sm-3p-compatible-extension-cable-100cm) € 2,50
 * 1x [ESP8266 WiFi Module ESP-01 1MB](https://www.tinytronics.nl/shop/en/communication-and-signals/wireless/wi-fi/modules/esp8266-wifi-module-esp-01-1mb) € 5,00
 
-Totals: € 514,20
+Totals: € 529,70
 
 
 ## Other Arduino projects
