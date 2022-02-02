@@ -31,9 +31,8 @@ Below are some comments that were included in that file:
 ### Neopixel best practices
 * Add 1000 uF CAPACITOR between NeoPixel strip's + and - connections.
 * Minimize wiring length between microcontroller board and first pixel.
-* NeoPixel strip's DATA-IN should pass through a 300-500 OHM RESISTOR.
-* AVOID connecting NeoPixels on a LIVE CIRCUIT. If you must, ALWAYS connect GROUND (-) first, then +, then data.
-* When using a 3.3V microcontroller with a 5V-powered NeoPixel strip, a LOGIC-LEVEL CONVERTER on the data line is STRONGLY RECOMMENDED. (Skipping these may work OK on your workbench but can fail in the field)
+* NeoPixel strip's DATA-IN should pass through a 300-500 Ω RESISTOR.
+* Avoid connecting NeoPixels on a live circuit. If you must, **always** connect GROUND (-) first, then +, then data.
 ![Schema for connecting the strip](assets/connect_strip.png)
 
 A [Dutch manual](https://www.esdsite.nl/elektronica/kleurcode.html) to calculate the resistance based on the color coding.
@@ -74,8 +73,8 @@ Example:
 5. Circle around 6 hexagons
 6. Light up certain hexagons (use arrows to pick which)
 7. All off, except when approached
-8. TBD
-9. ...
+8. Ableton with Max4Live control
+9. TBD
 10. ...
 
 ### Proximity sensors
@@ -84,6 +83,8 @@ Each hexagon contains a proximity sensor which can be used to light up a hexagon
 ### Smartphone
 Using [RemoteXY](https://remotexy.com) you can create an app for your smartphone. However, I don't think I'll be using this as it requires too much steps to open the app and control my lights. Watch this [Youtube video](https://www.youtube.com/watch?v=2cjufbgOBYo) for further instructions on that. I put a WiFi receiver in the shopping list regardless.
 
+### Ableton
+For Ableton Live there is a Max4Live plugin to control the Arduino, I'm not sure how to set that up yet and some additional hardware might be needed. So this part will remain on the wish list until further notice.
 
 ## Shopping list
 
