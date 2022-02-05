@@ -4,7 +4,7 @@ This project is still a work in progress, the current code is tested with 5m of 
 
 ## Hexagons
 
-![Hexagon cabinet](assets/cabinet.png)
+![Hexagon cabinet](assets/cabinet.gif)
 
 This cabinet consists of 16 hexagons with sides of 320mm and a depth of 320mm, made of 18mm plywood.
 
