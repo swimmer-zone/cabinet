@@ -101,18 +101,18 @@ For Ableton Live there is a Max4Live plugin to control the Arduino, I'm not sure
 
 ### Cabinet
 
-| Qty | Product | |
+| Qty | Product | Price |
 |---:|----------------|---:|
 | 12x | [Plywood Powerplex Pure interior 2440 x 1220 x 18 mm](https://www.hornbach.nl/shop/Multiplexplaat-Powerplex-Pure-interieur-2440-x-1220-x-18-mm/8492345/artikel.html) Assuming each slab contains 8 of the 96 320x320x18mm sections | € 57,95 |
 | 1x | [Wood glue](https://www.hornbach.nl/shop/BISON-Houtlijm-750-gr/4138994/artikel.html) | € 9,39 |
-| 8x | [Edge Banding 5000x20mm](https://www.hornbach.nl/shop/MACLEAN-Kantenband-naturel-eiken-20-x-5000-mm-voorgelijmd/7879774/artikel.html) € 3,50 |
-| 26x | connectors?
-| 1x | [Wood finish](https://www.hornbach.nl/shop/GILDE-MEESTERS-Acryl-PU-lak-zijdeglans-blank-1-l/6240064/artikel.html) € 31,29 |
-| | Totals: | € 532,28 |
+| 8x | [Edge Banding 5000x20mm](https://www.hornbach.nl/shop/MACLEAN-Kantenband-naturel-eiken-20-x-5000-mm-voorgelijmd/7879774/artikel.html) | € 3,50 |
+| 26x | connectors? | |
+| 1x | [Wood finish](https://www.hornbach.nl/shop/GILDE-MEESTERS-Acryl-PU-lak-zijdeglans-blank-1-l/6240064/artikel.html) | € 31,29 |
+| | Totals: | € 358,43 |
 
 ### Electronics
 
-| Qty | Product | |
+| Qty | Product | Price |
 |---:|----------------|---:|
 | 1x | [Arduino Mega 2560 R3](https://www.tinytronics.nl/shop/en/development-boards/microcontroller-boards/arduino-compatible/arduino-mega-2560-r3) | € 35,00 |
 | 2x | [DuPont Jumper wire Male-Female 20cm 10 wires](https://www.tinytronics.nl/shop/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-female-20cm-10-wires) | € 0,75 |
