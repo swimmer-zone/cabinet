@@ -43,17 +43,12 @@ Draw schemes like this with [Fritzing](https://fritzing.org/download/).
 Another useful source is the [Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide).
 
 ### How many NeoPixels are attached to the Arduino?
-LED_COUNT is defined by 20 hexagons times 108 LEDs, considering 60 LEDs/meter.
+`LED_COUNT` is defined by 16 hexagons times 108 LEDs, considering 60 LEDs/meter, that would mean a total of **1728** LEDs.
 
 ### Declare our NeoPixel strip object
 * Argument 1 = Number of pixels in NeoPixel strip
 * Argument 2 = Arduino pin number (most are valid)
-* Argument 3 = Pixel type flags, add together as needed:
-  * NEO_KHZ800  800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
-  * NEO_KHZ400  400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
-  * NEO_GRB     Pixels are wired for GRB bitstream (most NeoPixel products)
-  * NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
-  * NEO_RGBW    Pixels are wired for RGBW bitstream (NeoPixel RGBW products)
+* Argument 3 = Pixel type flags, add together as needed: **NEO_KHZ800** 800 KHz bitstream (most NeoPixel products w/WS2812 LEDs)
 
 ### Setup function runs once at startup
 It is required to include `strip.begin();` in this setup function. This can be used to turn all LEDs of initially and set a brightness. Other functions related to the strip can be found in the [class reference](https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html).
@@ -78,7 +73,23 @@ Example:
 10. ...
 
 ### Proximity sensors
-Each hexagon contains a proximity sensor which can be used to light up a hexagon when something is grabbed from it. Because 16 of those sensors are needed, unfortunately an Arduino Uno won't be sufficient, as it is impossible to connect that many things. That's why I included an Arduino Mega in the shopping list.
+Each hexagon contains a proximity sensor which can be used to light up a hexagon when something is grabbed from it. Because 16 of those sensors are needed, unfortunately an Arduino Uno won't be sufficient, as it is impossible to connect that many things. That's why I included an Arduino Mega in the shopping list. This also gives me some extra memory capacity. THe differences are visible in the table below:
+
+|                           | Arduino Micro  | Arduino Uno    | Arduino Mega   |
+|---------------------------|----------------|----------------|----------------|
+| Price                     |        € 19,00 |         €20,50 |         €35,00 |
+| Dimension                 | 45 * 18 mm     | 68.6 * 53.4 mm | 101.5 * 53.3 mm |
+| Processor                 | ATMega328P     | ATMega32U4     | ATMega2560     |
+| Clock Speed               |         16 MHz |         16 MHz |         16 MHz |
+| Flash Memory              |          32 kB |          32 kB |         256 kB |
+| EEPROM                    |           1 kB |           1 kB |           4 kB |
+| SRAM                      |         2.5 kB |           2 kB |           8 kB |
+| Voltage Level             |             5V |             5V |             5V |
+| Digital I/O Pins          |             20 |             14 |             54 |
+| Digital I/O with PWM Pins |              7 |              6 |             15 |
+| Analog Pins               |             12 |              6 |             12 |
+| USB Connectivity          | Micro USB      | USB-A          | USB-A          |
+| Shield Compatibility      | No             | Yes            | Yes            |
 
 ### Smartphone
 Using [RemoteXY](https://remotexy.com) you can create an app for your smartphone. However, I don't think I'll be using this as it requires too much steps to open the app and control my lights. Watch this [Youtube video](https://www.youtube.com/watch?v=2cjufbgOBYo) for further instructions on that. I put a WiFi receiver in the shopping list regardless.
