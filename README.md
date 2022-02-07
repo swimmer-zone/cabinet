@@ -73,7 +73,7 @@ Example:
 10. ...
 
 ### Proximity sensors
-Each hexagon contains a proximity sensor which can be used to light up a hexagon when something is grabbed from it. Because 16 of those sensors are needed, unfortunately an Arduino Uno won't be sufficient, as it is impossible to connect that many things. That's why I included an Arduino Mega in the shopping list. This also gives me some extra memory capacity. THe differences are visible in the table below:
+Each hexagon contains a proximity sensor which can be used to light up a hexagon when something is grabbed from it. Because 16 of those sensors are needed, unfortunately an Arduino Uno won't be sufficient, as it is impossible to connect that many things. That's why I included an Arduino Mega in the shopping list. This also gives me some extra memory capacity. The differences are visible in the table below:
 
 |                           | Arduino Micro  | Arduino Uno    | Arduino Mega   |
 |---------------------------|----------------|----------------|----------------|
