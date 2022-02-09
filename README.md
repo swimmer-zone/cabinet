@@ -101,11 +101,10 @@ For Ableton Live there is a Max4Live plugin to control the Arduino, I'm not sure
 
 | Qty | Product | Price |
 |---:|----------------|---:|
-| 5 | [Plywood Powerplex Pure interior 2440 x 1220 x 18 mm](https://www.hornbach.nl/shop/Multiplexplaat-Powerplex-Pure-interieur-2440-x-1220-x-18-mm/8492345/artikel.html) 21 320x320x18mm sections per slab | € 57,95 |
+| 13 | [Solid wood glued panel pine 2350x300x18mm](https://www.hornbach.nl/shop/Massief-houten-verlijmd-timmerpaneel-grenen-2350-x-300-x-18-mm/8662246/artikel.html) 21 320x320x18mm sections per slab | € 24,75 |
 | 1 | [Wood glue](https://www.hornbach.nl/shop/BISON-Houtlijm-750-gr/4138994/artikel.html) | € 9,39 |
-| 8 | [Edge Banding 5000x20mm](https://www.hornbach.nl/shop/MACLEAN-Kantenband-naturel-eiken-20-x-5000-mm-voorgelijmd/7879774/artikel.html) | € 3,50 |
 | 1 | [Wood finish](https://www.hornbach.nl/shop/GILDE-MEESTERS-Acryl-PU-lak-zijdeglans-blank-1-l/6240064/artikel.html) | € 31,29 |
-| | **Sub totals (cabinet):** | **€ 358,43** |
+| | **Sub totals (cabinet):** | **€ 362,43** |
 | 1 | [Arduino Mega 2560 R3](https://www.tinytronics.nl/shop/en/development-boards/microcontroller-boards/arduino-compatible/arduino-mega-2560-r3) | € 35,00 |
 | 2 | [DuPont Jumper wire Male-Female 20cm 10 wires](https://www.tinytronics.nl/shop/en/cables-and-connectors/cables-and-adapters/prototyping-wires/dupont-compatible-and-jumper/dupont-jumper-wire-male-female-20cm-10-wires) | € 0,75 |
 | 1 | [1000uF 25V Elektrolytic Capacitor](https://www.tinytronics.nl/shop/nl/componenten/condensatoren/1000uf-16v-elektrolytische-condensator) | € 0,25 |
@@ -123,7 +122,7 @@ For Ableton Live there is a Max4Live plugin to control the Arduino, I'm not sure
 | 20 | [JST-SM 3p Compatible Extension Cable - 100cm](https://www.tinytronics.nl/shop/en/lighting/led-strips/accessories/jst-sm-3p-compatible-extension-cable-100cm) | € 2,50 |
 | 1 | [ESP8266 WiFi Module ESP-01 1MB](https://www.tinytronics.nl/shop/en/communication-and-signals/wireless/wi-fi/modules/esp8266-wifi-module-esp-01-1mb) | € 5,00 |
 | | **Sub totals (electronics):** | **€ 528,95** |
-| | **Totals:** | **€ 887,38** |
+| | **Totals:** | **€ 891,38** |
 
 
 ## Other Arduino projects
